@@ -1,4 +1,8 @@
 {
+  "name": "candle-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "amqplib": "^0.10.3",
     "cors": "^2.8.5",
@@ -18,5 +22,11 @@
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
-  }
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
